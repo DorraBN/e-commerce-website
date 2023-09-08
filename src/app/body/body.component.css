@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+#p1{
+    margin-top: 280px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+.split-container {
+    display: flex;
+    flex: 3;
+    background-image: url('src/assets/com.jpg');
+  
+}
+
+.left-half, .right-half {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.left-half {
+    background-color: #f7f7f7; /* Couleur de la moitié gauche */
+}
+
+button{
+    border-radius: 10px;
+    border: 2px solid #000;
+    height: 50px;
+    color: rgb(69, 69, 158);
+    background-color: #d10d82;
+    font-size: 20px;
+}
+button:hover{
+    font-weight: 800;
+    color: #d10d82;
+    background-color: rgb(69, 69, 158);
+}
