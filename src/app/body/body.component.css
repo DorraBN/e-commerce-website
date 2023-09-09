@@ -8,7 +8,52 @@
     color: black;
 }
 
-
+.faq-section {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: transparent;
+    box-shadow: 0px 0px 50px #000;
+  }
+  
+  .faq {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #548397;
+    border-radius: 20px;
+    box-shadow: 0 20px 5px rgba(0, 0, 0, 0.3);
+    text-align: left;
+  }
+  
+  .faq h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .faq p {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.5;
+  }
+ 
+  
+  .vision-animation {
+    display: inline-block;
+    font-size: 24px;
+    transform-origin: center;
+    animation: rotateAnimation 6s linear infinite;
+  }
+  
 .split-container {
     display: flex;
     flex: 3;

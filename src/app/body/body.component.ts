@@ -1,9 +1,11 @@
-import { Component } from '@angular/core';
-import * as html2canvas from 'html2canvas';
+
+
+import { Component} from '@angular/core';
 @Component({
   selector: 'app-body',
   templateUrl: './body.component.html',
-  styleUrls: ['./body.component.css']
+  styleUrls: ['./body.component.css'],
+ 
 })
 export class BodyComponent {
   imagePath: string = 'assets/planet.jpg';
